@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Erica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -18,3 +20,31 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.swiper-button-next, .swiper-button-prev {
+  @apply text-black text-sm bg-white p-3 rounded-full shadow-xl;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+  @apply bg-white;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 30px; /* Increase the font size for the icons */
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 40px;
+  height: 40px;
+}
+
+.swiper-button-next {
+  @apply right-0; /* Adjust position */
+}
+
+.swiper-button-prev {
+  @apply left-0; /* Adjust position */
+}
+

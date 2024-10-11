@@ -9,7 +9,8 @@ export default {
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
         roboto_mono: ['Roboto', 'monospace'],
-        erica: ["Erica One", "sans-serif"]
+        erica: ["Erica One", "sans-serif"],
+        josefin: ["Josefin Sans", "sans-serif"]
       },
       colors: {
         'silver': '#a7a7a7',
