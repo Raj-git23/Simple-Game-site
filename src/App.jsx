@@ -3,10 +3,9 @@ import Intro from "./components/intro";
 function App() {
   return (
     <>
-      <div className="flex items-center relative justify-center">
+      <div className="flex relative justify-center">
         <Intro />
       </div>
-      
     </>
   );
 }

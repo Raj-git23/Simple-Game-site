@@ -10,7 +10,7 @@ const AllPosts = () => {
   const swiperRef = useRef(null);
 
   return (
-    <div className="flex flex-col items-center space-y-4">
+    <div className="flex flex-col items-center">
       {/* Navigation for switching sections */}
       <div className="flex space-x-8">
         <p

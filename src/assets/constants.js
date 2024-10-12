@@ -67,6 +67,6 @@ export const MerchandiseImage = [
 ];
 
 export const GamesImage = [
-    { bgimg:g1, alt:"m1"},
-    { bgimg:g2, alt:"m2"},
+    { bgimg:g1, alt:"m1", bgcolor:"#7d3ee2"},
+    { bgimg:g2, alt:"m2", bgcolor:"#4cca78"},
 ];
