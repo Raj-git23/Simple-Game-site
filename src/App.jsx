@@ -8,7 +8,7 @@ function App() {
       <div
         className="fixed inset-0 bg-cover bg-center z-0"
         style={{
-          backgroundImage: 'url("../src/assets/image/background.png")',
+          backgroundImage: 'url("../../image/background.png")',
         }}
       ></div>
 

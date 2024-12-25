@@ -1,24 +1,24 @@
-import a1 from "./image/AllPosts/a1.png";
-import a2 from "./image/AllPosts/a2.png";
-import a3 from "./image/AllPosts/a3.png";
-import a4 from "./image/AllPosts/a4.png";
-import a5 from "./image/AllPosts/a5.png";
-import a6 from "./image/AllPosts/a6.png";
-import a7 from "./image/AllPosts/a7.png";
-import a8 from "./image/AllPosts/a8.png";
-import v1 from "./image/AllPosts/v1.mp4";
-import v2 from "./image/AllPosts/v2.mp4";
-import v3 from "./image/AllPosts/v3.mp4";
-import m1 from "./image/Alabay_Merch/black hoodie bck.png";
-import m2 from "./image/Alabay_Merch/black hoodie.png";
-import m3 from "./image/Alabay_Merch/blue cap bck.png";
-import m4 from "./image/Alabay_Merch/cap mockup.png";
-import m5 from "./image/Alabay_Merch/pink tee bck.png";
-import m6 from "./image/Alabay_Merch/pink tshirt.png";
-import m7 from "./image/Alabay_Merch/yellow tee bck.png";
-import m8 from "./image/Alabay_Merch/yellow tshirt.png";
-import g1 from "./image/Alabay_Games/alabay guard prev 2 1.png";
-import g2 from "./image/Alabay_Games/alabay lost heritage prev 1.png";
+import a1 from "../../public/image/AllPosts/a1.png";
+import a2 from "../../public/image/AllPosts/a2.png";
+import a3 from "../../public/image/AllPosts/a3.png";
+import a4 from "../../public/image/AllPosts/a4.png";
+import a5 from "../../public/image/AllPosts/a5.png";
+import a6 from "../../public/image/AllPosts/a6.png";
+import a7 from "../../public/image/AllPosts/a7.png";
+import a8 from "../../public/image/AllPosts/a8.png";
+import v1 from "../../public/image/AllPosts/v1.mp4";
+import v2 from "../../public/image/AllPosts/v2.mp4";
+import v3 from "../../public/image/AllPosts/v3.mp4";
+import m1 from "../../public/image/Alabay_Merch/black hoodie bck.png";
+import m2 from "../../public/image/Alabay_Merch/black hoodie.png";
+import m3 from "../../public/image/Alabay_Merch/blue cap bck.png";
+import m4 from "../../public/image/Alabay_Merch/cap mockup.png";
+import m5 from "../../public/image/Alabay_Merch/pink tee bck.png";
+import m6 from "../../public/image/Alabay_Merch/pink tshirt.png";
+import m7 from "../../public/image/Alabay_Merch/yellow tee bck.png";
+import m8 from "../../public/image/Alabay_Merch/yellow tshirt.png";
+import g1 from "../../public/image/Alabay_Games/alabay guard prev 2 1.png";
+import g2 from "../../public/image/Alabay_Games/alabay lost heritage prev 1.png";
 
 
 

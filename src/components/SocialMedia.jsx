@@ -15,14 +15,14 @@ const SocialMedia = () => {
         <div className="absolute right-20 mt-10 z-20 w-auto h-auto">
           {/* Original Image */}
           <img
-            src="../src/assets/image/AllPosts/a8.png"
+            src="../../image/AllPosts/a8.png"
             className="h-[40rem] w-[40rem] block"
             alt="Dog"
           />
 
           {/* Reflection */}
           <img
-            src="../src/assets/image/AllPosts/a8.png"
+            src="../../image/AllPosts/a8.png"
             className="h-[10rem] w-[40rem] block transform scale-y-[-1] absolute bottom-[-20%] opacity-40 blur-sm"
             alt="Dog Reflection"
             style={{
@@ -36,7 +36,7 @@ const SocialMedia = () => {
       </div>
       <div className="flex flex-col mx-20 w-[35rem] mt-10 text-4xl font-bold relative">
   {/* Main Image */}
-  <img src="../src/assets/image/AllPosts/i1.png" alt="i1" className="relative z-10" />
+  <img src="../../image/AllPosts/i1.png" alt="i1" className="relative z-10" />
 
   {/* Icons (Positioned above the main image) */}
   <div className="absolute top-28 left-20 flex flex-col z-20">

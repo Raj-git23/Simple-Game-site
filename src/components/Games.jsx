@@ -74,15 +74,15 @@ const Games = () => {
       </p>
       <div className="flex flex-row items-center gap-5 ml-8 mt-10">
         <img
-          src="../src/assets/image/Alabay_Games/artifacts 2.png"
+          src="../../image/Alabay_Games/artifacts 2.png"
           className="h-96 w-96"
         />
         <img
-          src="../src/assets/image/Alabay_Games/Abilities 2.png"
+          src="../../image/Alabay_Games/Abilities 2.png"
           className="h-96 w-96"
         />
         <img
-          src="../src/assets/image/Alabay_Games/image 3 alabay guard 2.png"
+          src="../../image/Alabay_Games/image 3 alabay guard 2.png"
           className="h-96 w-96"
         />
 

@@ -30,14 +30,14 @@ const RoadMap = () => {
         <div className="absolute right-20 z-20 w-auto h-auto">
           {/* Original Image */}
           <img
-            src="../src/assets/image/AllPosts/a6.png"
+            src="../../image/AllPosts/a6.png"
             className="h-[40rem] w-[40rem] block"
             alt="Dog"
           />
 
           {/* Reflection */}
           <img
-            src="../src/assets/image/AllPosts/a6.png"
+            src="../../image/AllPosts/a6.png"
             className="h-[40rem] w-[40rem] block transform scale-y-[-1] absolute bottom-[-88%] opacity-40 blur-sm"
             alt="Dog Reflection"
             style={{
@@ -67,26 +67,26 @@ const RoadMap = () => {
           <Cards
             content="Community Building"
             title="and Initial Launch"
-            src="../src/assets/image/AllPosts/a1.png"
+            src="../../image/AllPosts/a1.png"
             bgcolor="#dee14c"
             className="rounded-l-3xl"
           />
           <Cards
             content="Merchandise"
             title="Store Launch"
-            src="../src/assets/image/AllPosts/a2.png"
+            src="../../image/AllPosts/a2.png"
             bgcolor="#52dacc"
           />
           <Cards
             content="Community Events"
             title="and contents"
-            src="../src/assets/image/AllPosts/a3.png"
+            src="../../image/AllPosts/a3.png"
             bgcolor="#ce70f0"
           />
           <Cards
             content="Expansion and New"
             title="Features"
-            src="../src/assets/image/AllPosts/a4.png"
+            src="../../image/AllPosts/a4.png"
             bgcolor="#9e3232"
             className="rounded-r-3xl"
           />

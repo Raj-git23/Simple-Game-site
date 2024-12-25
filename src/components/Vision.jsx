@@ -11,7 +11,7 @@ const Vision = () => {
       <div className="absolute inset-0 mt-20 min-[500px]:mt-28 md:mt-52 transform -skew-y-6 bg-yellow-300 h-[92%] origin-right bg-cover -z-10"></div>
         {/* Original Image */}
         <img
-          src="../src/assets/image/AllPosts/a5.png"
+          src="../../image/AllPosts/a5.png"
           alt="dog"
           className="h-5/6 w-5/6"
         />
@@ -19,7 +19,7 @@ const Vision = () => {
 
         {/* Reflection */}
         <img
-          src="../src/assets/image/AllPosts/a5.png"
+          src="../../image/AllPosts/a5.png"
           alt="dog reflection"
           className="h-4/6 w-5/6 -mt-6 md:-mt-16 absolute top-full scale-y-[-1] opacity-40"
           style={{

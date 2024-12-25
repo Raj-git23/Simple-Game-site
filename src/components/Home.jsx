@@ -19,7 +19,7 @@ function Home() {
           <div className="flex flex-col mt-24 relative w-[25rem] h-[22rem] min-[530px]:w-[30rem] min-[530px]:h-[30rem] min-[610px]:w-[35rem] lg:w-[200rem]">
             {/* Original Image */}
             <img
-              src="../src/assets/image/dog.png"
+              src="../../image/dog.png"
               className="h-3/4 w-3/4 min-[450px]:h-full min-[450px]:w-full min-[450px]:h-full min-[450px]:w-full absolute"
               alt="Dog"
             />

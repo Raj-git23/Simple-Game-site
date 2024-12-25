@@ -31,14 +31,14 @@ const Tokens = () => {
         <div className="absolute right-12 z-20 w-auto h-auto">
           {/* Original Image */}
           <img
-            src="../src/assets/image/AllPosts/a7.png"
+            src="../../image/AllPosts/a7.png"
             className="h-[40rem] w-[40rem] block"
             alt="Dog"
           />
 
           {/* Reflection */}
           <img
-            src="../src/assets/image/AllPosts/a7.png"
+            src="../../image/AllPosts/a7.png"
             className="h-[40rem] w-[40rem] block transform scale-y-[-1] absolute bottom-[-78%] opacity-40 blur-sm"
             alt="Dog Reflection"
             style={{
