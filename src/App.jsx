@@ -1,5 +1,5 @@
 import React from "react";
-import Intro from "./components/intro";
+// import Intro from "./components/intro";
 import Home from "./components/Home";
 
 function App() {
