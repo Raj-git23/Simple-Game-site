@@ -10,12 +10,12 @@ const AllPosts = () => {
   const swiperRef = useRef(null);
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col max-lg:mt-16   items-center">
       {/* Navigation for switching sections */}
-      <div className="flex space-x-8">
+      <div className="flex text-2xl lg:text-4xl space-x-8">
         <p
           onClick={() => setSelectedSection("ALL")}
-          className={`font-sans text-2xl font-black cursor-pointer z-20 ${
+          className={`font-sans font-black cursor-pointer z-20 ${
             selectedSection === "ALL" ? "text-[#ea7c32]" : "text-black"
           }`}
         >
@@ -23,7 +23,7 @@ const AllPosts = () => {
         </p>
         <p
           onClick={() => setSelectedSection("PHOTOS")}
-          className={`font-sans text-2xl font-black cursor-pointer ${
+          className={`font-sans font-black cursor-pointer ${
             selectedSection === "PHOTOS" ? "text-[#ea7c32]" : "text-black"
           }`}
         >
@@ -31,7 +31,7 @@ const AllPosts = () => {
         </p>
         <p
           onClick={() => setSelectedSection("VIDEOS")}
-          className={`font-sans text-2xl font-black cursor-pointer ${
+          className={`font-sans font-black cursor-pointer ${
             selectedSection === "VIDEOS" ? "text-[#ea7c32]" : "text-black"
           }`}
         >
@@ -40,25 +40,25 @@ const AllPosts = () => {
       </div>
 
       {/* Conditionally Render Sections */}
-      <div className="mx-10">
+      <div className="mx-2 md:mx-10">
         <div className="flex flex-wrap">
           {selectedSection === "ALL" && (
-            <div className="relative mx-32 rounded-2xl">
+            <div className="relative mx-6 sm:mx-20 md:mx-32 rounded-2xl">
               {/* Navigation buttons outside of Swiper */}
-              <div className="absolute flex items-center -left-28 z-10  bg-black rounded-xl h-12 top-1/2 -translate-y-1/2 shadow-lg shadow-black/50">
+              <div className="absolute flex items-center -left-6 md:-left-28 z-10 bg-black rounded-xl h-8 md:h-12 top-1/2 -translate-y-1/2 shadow-lg shadow-black/50">
                 <button
                   onClick={() => swiperRef.current?.slidePrev()}
-                  className="px-2 py-2 text-5xl text-white rounded"
+                  className="px-2 py-2 text-lg md:text-5xl text-white rounded"
                 >
-                  <FaArrowLeft className="text-lg font-bold drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]" />
+                  <FaArrowLeft className="text-sm md:text-lg font-bold drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]" />
                 </button>
               </div>
-              <div className="absolute flex items-center -right-28 z-10 bg-black rounded-xl h-12 top-1/2 -translate-y-1/2 shadow-lg shadow-black/50">
+              <div className="absolute flex items-center -right-6 md:-right-28 z-10 bg-black rounded-xl h-8 md:h-12 top-1/2 -translate-y-1/2 shadow-lg shadow-black/50">
                 <button
                   onClick={() => swiperRef.current?.slideNext()}
-                  className="px-2 py-2 text-5xl text-white rounded"
+                  className="px-2 py-2 text-lg md:text-5xl text-white rounded"
                 >
-                  <FaArrowRight className="text-lg font-bold drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]" />
+                  <FaArrowRight className="text-sm md:text-lg font-bold drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]" />
                 </button>
               </div>
 
@@ -86,7 +86,7 @@ const AllPosts = () => {
                       <video
                         src={links.link}
                         alt={links.alt}
-                        className="w-80 bg-gray-500 rounded-xl h-44 object-cover cursor-pointer hover:border-3 hover:border-black"
+                        className="w-80 bg-gray-500 rounded-xl h-60 md:h-44 object-cover cursor-pointer hover:border-3 hover:border-black"
                         autoPlay
                         loop
                         muted
@@ -97,7 +97,7 @@ const AllPosts = () => {
                       <img
                         src={links.link}
                         alt={links.alt}
-                        className="w-80 bg-gray-500 rounded-xl h-44 object-cover cursor-pointer hover:border-3 hover:border-black"
+                        className="w-80 bg-gray-500 rounded-xl h-60 md:h-44 object-cover cursor-pointer hover:border-3 hover:border-black"
                       />
                     )}
                   </SwiperSlide>
@@ -109,22 +109,22 @@ const AllPosts = () => {
 
         <div className="flex flex-wrap">
           {selectedSection === "PHOTOS" && (
-            <div className="relative mx-32 rounded-2xl">
+            <div className="relative mx-6 sm:mx-20 md:mx-32 rounded-2xl">
               {/* Navigation buttons outside of Swiper */}
-              <div className="absolute flex items-center -left-28 z-10  bg-black rounded-xl h-12 top-1/2 -translate-y-1/2 shadow-lg shadow-black/50">
+              <div className="absolute flex items-center -left-6 md:-left-28 z-10 bg-black rounded-xl h-8 md:h-12 top-1/2 -translate-y-1/2 shadow-lg shadow-black/50">
                 <button
                   onClick={() => swiperRef.current?.slidePrev()}
-                  className="px-2 py-2 text-5xl text-white rounded"
+                  className="px-2 py-2 text-lg md:text-5xl text-white rounded"
                 >
-                  <FaArrowLeft className="text-lg font-bold drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]" />
+                  <FaArrowLeft className="text-sm md:text-lg font-bold drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]" />
                 </button>
               </div>
-              <div className="absolute flex items-center -right-28 z-10 bg-black rounded-xl h-12 top-1/2 -translate-y-1/2 shadow-lg shadow-black/50">
+              <div className="absolute flex items-center -right-6 md:-right-28 z-10 bg-black rounded-xl h-8 md:h-12 top-1/2 -translate-y-1/2 shadow-lg shadow-black/50">
                 <button
                   onClick={() => swiperRef.current?.slideNext()}
-                  className="px-2 py-2 text-5xl text-white rounded"
+                  className="px-2 py-2 text-lg md:text-5xl text-white rounded"
                 >
-                  <FaArrowRight className="text-lg font-bold drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]" />
+                  <FaArrowRight className="text-sm md:text-lg font-bold drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]" />
                 </button>
               </div>
 
@@ -147,12 +147,25 @@ const AllPosts = () => {
                     className="rounded-lg animate-slideright"
                     style={{ width: "auto" }} // Ensure width is auto
                   >
-                    {/* Image element to display the image */}
-                    <img
-                      src={links.link}
-                      alt={links.alt}
-                      className="w-80 bg-gray-500 rounded-xl h-44 hover:border-3 cursor-pointer hover:border-black object-cover"
-                    />
+                    {links.type === "video" ? (
+                      // If the type is "video", render the video element
+                      <video
+                        src={links.link}
+                        alt={links.alt}
+                        className="w-80 bg-gray-500 rounded-xl h-60 md:h-44 object-cover cursor-pointer hover:border-3 hover:border-black"
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                      />
+                    ) : (
+                      // Otherwise, render an image element for "image" type
+                      <img
+                        src={links.link}
+                        alt={links.alt}
+                        className="w-80 bg-gray-500 rounded-xl h-60 md:h-44 object-cover cursor-pointer hover:border-3 hover:border-black"
+                      />
+                    )}
                   </SwiperSlide>
                 ))}
               </Swiper>
@@ -162,22 +175,22 @@ const AllPosts = () => {
 
         <div className="flex flex-wrap">
           {selectedSection === "VIDEOS" && (
-            <div className="relative mx-32 rounded-2xl">
+            <div className="relative mx-6 sm:mx-20 md:mx-32 rounded-2xl">
               {/* Navigation buttons outside of Swiper */}
-              <div className="absolute flex items-center -left-28 z-10  bg-black rounded-xl h-12 top-1/2 -translate-y-1/2 shadow-lg shadow-black/50">
+              <div className="absolute flex items-center -left-6 md:-left-28 z-10 bg-black rounded-xl h-8 md:h-12 top-1/2 -translate-y-1/2 shadow-lg shadow-black/50">
                 <button
                   onClick={() => swiperRef.current?.slidePrev()}
-                  className="px-2 py-2 text-5xl text-white rounded"
+                  className="px-2 py-2 text-lg md:text-5xl text-white rounded"
                 >
-                  <FaArrowLeft className="text-lg font-bold drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]" />
+                  <FaArrowLeft className="text-sm md:text-lg font-bold drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]" />
                 </button>
               </div>
-              <div className="absolute flex items-center -right-28 z-10 bg-black rounded-xl h-12 top-1/2 -translate-y-1/2 shadow-lg shadow-black/50">
+              <div className="absolute flex items-center -right-6 md:-right-28 z-10 bg-black rounded-xl h-8 md:h-12 top-1/2 -translate-y-1/2 shadow-lg shadow-black/50">
                 <button
                   onClick={() => swiperRef.current?.slideNext()}
-                  className="px-2 py-2 text-5xl text-white rounded"
+                  className="px-2 py-2 text-lg md:text-5xl text-white rounded"
                 >
-                  <FaArrowRight className="text-lg font-bold drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]" />
+                  <FaArrowRight className="text-sm md:text-lg font-bold drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]" />
                 </button>
               </div>
 
@@ -200,12 +213,25 @@ const AllPosts = () => {
                     className="rounded-lg animate-slideright"
                     style={{ width: "auto" }} // Ensure width is auto
                   >
-                    {/* Image element to display the image */}
-                    <img
-                      src={links.link}
-                      alt={links.alt}
-                      className="w-80 bg-gray-500 rounded-xl h-44 hover:border-3 cursor-pointer hover:border-black object-cover"
-                    />
+                    {links.type === "video" ? (
+                      // If the type is "video", render the video element
+                      <video
+                        src={links.link}
+                        alt={links.alt}
+                        className="w-80 bg-gray-500 rounded-xl h-60 md:h-44 object-cover cursor-pointer hover:border-3 hover:border-black"
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                      />
+                    ) : (
+                      // Otherwise, render an image element for "image" type
+                      <img
+                        src={links.link}
+                        alt={links.alt}
+                        className="w-80 bg-gray-500 rounded-xl h-60 md:h-44 object-cover cursor-pointer hover:border-3 hover:border-black"
+                      />
+                    )}
                   </SwiperSlide>
                 ))}
               </Swiper>

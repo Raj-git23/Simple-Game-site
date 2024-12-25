@@ -59,10 +59,9 @@ const RoadMap = () => {
         </p>
       </div>
 
-      <div className="relative w-full mt-40">
-        {/* Gradient Background Div */}
-        <div className="absolute inset-0 z-30 w-11/12 mx-10 bg-gradient-to-t from-white to-transparent h-full"></div>
-
+      <div className="relative w-full mt-48">
+  {/* Gradient Background Div */}
+  <div className="absolute bottom-0 left-0 right-0 z-30 w-full bg-gradient-to-t from-white to-transparent h-2/3"></div>
         {/* Cards Section */}
         <div className="flex relative z-20 flow-row justify-center gap-4 w-11/12 rounded-t-xl mx-10">
           <Cards

@@ -7,7 +7,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --background-image: url("./assets/image/background.png");
   margin: 0;
   padding: 0;
@@ -19,7 +19,7 @@ body {
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
-}
+} */
 
 .swiper-button-next, .swiper-button-prev {
   @apply text-black text-sm bg-white p-3 rounded-full shadow-xl;
